@@ -43,7 +43,7 @@ function Body(){
       
             
       
-      `}</style>
+      `}</style> 
       <div className="background">
         <div className="wrapper">
           <div className="item">About</div>
