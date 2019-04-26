@@ -6,8 +6,18 @@ import Body from './Body';
 
 function App(){
   return (
+    
     <div>
+    <style jsx>{`
+      
+      *{
+        background:black;    
+      }
+    
+      `}</style>
+      <div>
       <Body/>
+    </div>
     </div>
   );
 }

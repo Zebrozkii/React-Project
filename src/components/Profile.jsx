@@ -11,7 +11,7 @@ function Profile(){
       img{
         width:180px;
         position:absolute;
-        
+        padding-right:50px;
       }
       `}</style>
       <div>

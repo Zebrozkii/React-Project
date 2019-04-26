@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Profile from './Profile';
+import about from '../assets/images/image5.jpeg';
 
 
 
@@ -14,15 +15,19 @@ function Body(){
       display:grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows:250px 250px 250px;
-      grid-gap:20px;
+      grid-gap:0px;
     }
     .item{
-      background:aqua;
+      background:white;
+      border-style:solid;
+      border-width:2px;
+      border-color:aqua;
       color:white;
       padding:10px;
       border-radius:25px;
       box-shadow:3px 3px black;
       text-align:center;
+      
     }
     *{
       background-color:black;
@@ -37,6 +42,13 @@ function Body(){
     .item:nth-child(even){
       background: none;
       box-shadow:none;
+      border-style:none;
+      border-width:0px;
+      border-color:none;
+      }
+      .resize{
+        height:50%;
+        width:auto;
       }
       
       
@@ -46,7 +58,7 @@ function Body(){
       `}</style> 
       <div className="background">
         <div className="wrapper">
-          <div className="item">About</div>
+          <div className="resize" className="item"><img src={about}/></div>
           <div className="item"></div>
           <div className="item">Interests</div>
           <div className="item"></div>
