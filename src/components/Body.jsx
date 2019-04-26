@@ -22,6 +22,7 @@ function Body(){
       padding:10px;
       border-radius:25px;
       box-shadow:3px 3px black;
+      text-align:center;
     }
     *{
       background-color:black;
@@ -31,27 +32,29 @@ function Body(){
       color:white;
       padding:10px;
       border-radius:200px;
-      text-align:center;
+    
     }
     .item:nth-child(even){
       background: none;
       box-shadow:none;
       }
       
+      
+      
             
       
       `}</style>
       <div className="background">
         <div className="wrapper">
+          <div className="item">About</div>
           <div className="item"></div>
-          <div className="item"></div>
-          <div className="item"></div>
+          <div className="item">Interests</div>
           <div className="item"></div>
           <div className="picture" className="item"><Profile/></div>
           <div className="item"></div>
+          <div className="item">Contact</div>
           <div className="item"></div>
-          <div className="item"></div>
-          <div className="item"></div>
+          <div className="item">Projects</div>
         </div>
       </div>
     </div>

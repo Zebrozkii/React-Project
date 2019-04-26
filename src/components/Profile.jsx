@@ -8,13 +8,10 @@ function Profile(){
   return (
     <div>
     <style jsx>{`
-      .white{
-        background-color:white;
-      }
       img{
         width:180px;
-        position:fixed;
-        margin-left:130px;
+        position:absolute;
+        
       }
       `}</style>
       <div>
