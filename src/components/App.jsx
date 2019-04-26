@@ -1,12 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Body from './Body';
 
 
 
 function App(){
   return (
     <div>
-    <h1>Jimmy</h1>
+    <Body/>
     </div>
   );
 }
