@@ -7,7 +7,7 @@ import Body from './Body';
 function App(){
   return (
     <div>
-    <Body/>
+      <Body/>
     </div>
   );
 }

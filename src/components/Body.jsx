@@ -1,12 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Profile from './Profile';
 
 
 
 function Body(){
   return (
     <div>
-    <style jsx>{`
+      <style jsx>{`
       .wrapper{
       width:100%;
       magrin:0 auto;
@@ -16,14 +17,14 @@ function Body(){
       grid-gap:20px;
     }
     .item{
-      background:white;
+      background:aqua;
       color:white;
       padding:10px;
       border-radius:25px;
-      box-shadow:10px 3px black;
+      box-shadow:3px 3px black;
     }
     *{
-      background-image: linear-gradient(black, white,black);
+      background-color:black;
     }
     .picture{
       background:white;
@@ -35,21 +36,22 @@ function Body(){
       background: none;
       box-shadow:none;
       }
+      
             
       
       `}</style>
       <div className="background">
-      <div className="wrapper">
-      <div className="item">1</div>
-      <div className="item"></div>
-      <div className="item">1</div>
-      <div className="item"></div>
-      <div className="picture" className="item"></div>
-      <div className="item"></div>
-      <div className="item">1</div>
-      <div className="item"></div>
-      <div className="item">1</div>
-      </div>
+        <div className="wrapper">
+          <div className="item"></div>
+          <div className="item"></div>
+          <div className="item"></div>
+          <div className="item"></div>
+          <div className="picture" className="item"><Profile/></div>
+          <div className="item"></div>
+          <div className="item"></div>
+          <div className="item"></div>
+          <div className="item"></div>
+        </div>
       </div>
     </div>
   );
