@@ -31,6 +31,7 @@ function Body(){
       color:white;
       padding:10px;
       border-radius:200px;
+      text-align:center;
     }
     .item:nth-child(even){
       background: none;

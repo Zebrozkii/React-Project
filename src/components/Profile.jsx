@@ -1,5 +1,5 @@
 import React from 'react';
-import jimmy from '../assets/images/fullsizeoutput_6.jpg';
+import fullsizeoutput_6 from '../assets/images/image1.png';
 
 
 
@@ -7,8 +7,20 @@ import jimmy from '../assets/images/fullsizeoutput_6.jpg';
 function Profile(){
   return (
     <div>
+    <style jsx>{`
+      .white{
+        background-color:white;
+      }
+      img{
+        width:180px;
+        position:fixed;
+        margin-left:130px;
+      }
+      `}</style>
       <div>
-      <img src={jimmy}/>
+      <div className="white">
+      <img src={fullsizeoutput_6}/>
+      </div>
       </div>
     </div>
   );
