@@ -16,23 +16,40 @@ function Body(){
       grid-gap:20px;
     }
     .item{
-      background:blue;
+      background:white;
       color:white;
       padding:10px;
+      border-radius:25px;
+      box-shadow:10px 3px black;
     }
-      
+    *{
+      background-image: linear-gradient(black, white,black);
+    }
+    .picture{
+      background:white;
+      color:white;
+      padding:10px;
+      border-radius:200px;
+    }
+    .item:nth-child(even){
+      background: none;
+      box-shadow:none;
+      }
+            
       
       `}</style>
+      <div className="background">
       <div className="wrapper">
       <div className="item">1</div>
+      <div className="item"></div>
       <div className="item">1</div>
+      <div className="item"></div>
+      <div className="picture" className="item"></div>
+      <div className="item"></div>
       <div className="item">1</div>
+      <div className="item"></div>
       <div className="item">1</div>
-      <div className="item">1</div>
-      <div className="item">1</div>
-      <div className="item">1</div>
-      <div className="item">1</div>
-      <div className="item">1</div>
+      </div>
       </div>
     </div>
   );
