@@ -1,10 +1,10 @@
 import React from 'react';
-import fullsizeoutput_6 from '../assets/images/image1.png';
+import image5 from '../assets/images/image5.jpeg';
 
 
 
 
-function Profile(){
+function AboutPic(){
   return (
     <div>
     <style jsx>{`
@@ -16,11 +16,11 @@ function Profile(){
       `}</style>
       <div>
       <div className="white">
-      <img src={fullsizeoutput_6}/>
+      <img src={image5}/>
       </div>
       </div>
     </div>
   );
 }
 
-export default Profile;
+export default AboutPic;

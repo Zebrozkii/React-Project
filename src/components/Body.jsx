@@ -1,7 +1,10 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Profile from './Profile';
-import about from '../assets/images/image5.jpeg';
+import interests from '../assets/images/image4.jpeg';
+import contacts from '../assets/images/image3.jpeg'
+import projects from '../assets/images/image2.jpeg'
+import fullsizeoutput_6 from '../assets/images/main.jpeg';
+import image5 from '../assets/images/image5.jpeg';
 
 
 
@@ -32,13 +35,6 @@ function Body(){
     *{
       background-color:black;
     }
-    .picture{
-      background:white;
-      color:white;
-      padding:10px;
-      border-radius:200px;
-    
-    }
     .item:nth-child(even){
       background: none;
       box-shadow:none;
@@ -46,27 +42,24 @@ function Body(){
       border-width:0px;
       border-color:none;
       }
-      .resize{
-        height:50%;
-        width:auto;
+      img{
+      height:100%;
+      width:auto;
       }
       
-      
-      
-            
       
       `}</style> 
       <div className="background">
         <div className="wrapper">
-          <div className="resize" className="item"><img src={about}/></div>
+          <div className="item"><img src={image5}/> About Me</div>
           <div className="item"></div>
-          <div className="item">Interests</div>
+          <div className="item"><img src={interests}/></div>
           <div className="item"></div>
-          <div className="picture" className="item"><Profile/></div>
+          <div className="item"><img src={fullsizeoutput_6}/></div>
           <div className="item"></div>
-          <div className="item">Contact</div>
+          <div className="item"><img src={contacts}/></div>
           <div className="item"></div>
-          <div className="item">Projects</div>
+          <div className="item"><img src={projects}/></div>
         </div>
       </div>
     </div>
