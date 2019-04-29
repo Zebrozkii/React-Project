@@ -53,7 +53,7 @@ function Body(){
         <div className="wrapper">
           <div className="item"><Link to="/about"><img src={image5}/></Link><h1>About Me</h1></div>
           <div className="item"><h1>Home</h1></div>
-          <div className="item"><img src={interests}/><h1>Interests</h1></div>
+          <div className="item"><Link to="/interests"><img src={interests}/></Link><h1>Interests</h1></div>
           <div className="item"></div>
           <div className="item"><img src={fullsizeoutput_6}/></div>
           <div className="item"></div>

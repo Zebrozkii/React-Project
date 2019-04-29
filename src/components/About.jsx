@@ -18,7 +18,7 @@ function About(){
       }
       `}</style>
       <div>
-      <h1>About Me</h1><Link to="/"><h3>Home</h3></Link><img src={surprise}/>
+      <h1>About</h1><Link to="/"><h3>Home</h3></Link><img src={surprise}/>
       <p>Hello, i got my first taste of programming back in a intro class to C++ and since then ive loved it.
       I thouroughly enjoy the struggle of solving problems with the tools i know and leraning new thing constatnly always keeps me entertained</p>
     </div>
