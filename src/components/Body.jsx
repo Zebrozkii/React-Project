@@ -57,9 +57,9 @@ function Body(){
           <div className="item"></div>
           <div className="item"><img src={fullsizeoutput_6}/></div>
           <div className="item"></div>
-          <div className="item"><img src={contacts}/><h1>Contact Info</h1></div>
+          <div className="item"><Link to="/contactinfo"><img src={contacts}/></Link><h1>Contact Info</h1></div>
           <div className="item"></div>
-          <div className="item"><img src={projects}/></div>
+          <div className="item"><Link to="/contactinfo"><img src={projects}/></Link></div>
         </div>
       </div>
     </div>

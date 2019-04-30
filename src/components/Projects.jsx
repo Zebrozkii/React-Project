@@ -5,7 +5,7 @@ import surprise from '../assets/images/image1-2.jpeg';
 
 
 
-function Interests(){
+function Projects(){
   return (
 
     <div>
@@ -33,4 +33,4 @@ function Interests(){
   );
 }
 
-export default Interests;
+export default Projects;
