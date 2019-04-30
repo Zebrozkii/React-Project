@@ -6,7 +6,7 @@
 ----------
 
 ## Description
-This is a example of the skills iver picked up in the REact Library.
+This is a example of the skills iver picked up in the React Library.
 
 ## Known Bugs
 * Zero known bugs.
