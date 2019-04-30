@@ -56,10 +56,10 @@ function Body(){
           <div className="item"><Link to="/interests"><img src={interests}/></Link><h1>Interests</h1></div>
           <div className="item"></div>
           <div className="item"><img src={fullsizeoutput_6}/></div>
+          <div className="item"><h1>Contact Info</h1></div>
+          <div className="item"><Link to="/contactinfo"><img src={contacts}/></Link></div>
           <div className="item"></div>
-          <div className="item"><Link to="/contactinfo"><img src={contacts}/></Link><h1>Contact Info</h1></div>
-          <div className="item"></div>
-          <div className="item"><Link to="/contactinfo"><img src={projects}/></Link></div>
+          <div className="item"><Link to="/projects"><img src={projects}/></Link></div>
         </div>
       </div>
     </div>

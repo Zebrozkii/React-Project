@@ -23,6 +23,7 @@ function Interests(){
       <ul>
       <li>Fishing</li>
       <li>Trying new Food</li>
+      <li>Golfing</li>
       <li>Sleeping</li>
       <li>Video Games</li>
       <li>Many other things</li>
