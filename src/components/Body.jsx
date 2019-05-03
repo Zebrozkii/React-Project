@@ -14,21 +14,22 @@ function Body(){
       <style jsx>{`
       .wrapper{
       width:100%;
-      magrin:0 auto;
+      margin:0 auto;
       display:grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows:250px 250px 250px;
       grid-gap:0px;
+      background-color:black;
     }
     .item{
       background:white;
       border-style:solid;
       border-width:2px;
-      border-color:aqua;
+      border-color:pink;
       color:white;
-      padding:10px;
-      border-radius:25px;
-      box-shadow:3px 3px black;
+      // padding:10px;
+      border-radius:15px;
+      // box-shadow:3px 3px black;
       text-align:center;
 
     }
@@ -46,18 +47,28 @@ function Body(){
       height:100%;
       width:auto;
       }
+      .lowerText{
+        text-align:center;
+        color:white;
+      }
+      .contactInfo{
+        margin-top:120px;
+      }
+      .background{
+        padding-bottom:80px;
+      }
 
 
       `}</style>
       <div className="background">
         <div className="wrapper">
-          <div className="item"><Link to="/about"><img src={image5}/></Link><h1>About Me</h1></div>
+          <div className="item"><Link to="/about"><img src={image5}/></Link></div>
           <div className="item"><h1>Home</h1></div>
-          <div className="item"><Link to="/interests"><img src={interests}/></Link><h1>Interests</h1></div>
-          <div className="item"></div>
-          <div className="item"><img src={fullsizeoutput_6}/></div>
-          <div className="item"><h1>Contact Info</h1></div>
-          <div className="item"><Link to="/contactinfo"><img src={contacts}/></Link></div>
+          <div className="item"><Link to="/interests"><img src={interests}/></Link><h1>Interests</h1><h1 className="contactInfo">Projects</h1></div>
+          <div className="item" className="lowerText"><h1>About Me</h1><h1 className="contactInfo">Contact Info</h1></div>
+          <div className="item"><Link to='/comment'><img src={fullsizeoutput_6}/></Link></div>
+          <div className="item"><h1></h1></div>
+          <div className="item"><Link to="/contactinfo"><img className="bottomImage" src={contacts}/></Link></div>
           <div className="item"></div>
           <div className="item"><Link to="/projects"><img src={projects}/></Link></div>
         </div>
