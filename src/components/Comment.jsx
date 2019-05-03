@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 
 class Comment extends React.Component{
-
+    
   constructor(props){
     super(props);
-    this.state = { };
+    this.state = {comment: '' };
     this.handleChange = this.handleChange.bind(this);
   }
   handleChange(e){
@@ -19,8 +19,8 @@ class Comment extends React.Component{
     <form>
     <input
     type="text"
-    name="comment"
     id="comment"
+    ref={(input) => {comment=input;}}
     value={this.state.comment}
     onChange={this.handleChange}
     />
