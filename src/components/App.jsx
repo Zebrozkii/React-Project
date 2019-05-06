@@ -5,7 +5,7 @@ import About from './About';
 import Interests from './Interests';
 import ContactInfo from './ContactInfo';
 import Projects from './Projects';
-import Comment from './Comment';
+import CommentPage from './CommentPage';
 
 
 
@@ -23,7 +23,7 @@ function App(){
           <Route path='/interests' component={Interests}/>
           <Route path='/contactinfo' component={ContactInfo}/>
           <Route path='/projects' component={Projects}/>
-          <Route path='/comment' component={Comment}/>
+          <Route path='/comment' component={CommentPage}/>
         </Switch>
       </div>
     </div>
