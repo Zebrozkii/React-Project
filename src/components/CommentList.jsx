@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 
 function CommentList(props){
-  console.log(props.commentList);
   return (
     <div>
       <hr/>

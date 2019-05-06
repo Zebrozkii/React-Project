@@ -12,7 +12,6 @@ function NewCommentForm(props) {
 
   function handleNewCommentSubmission() {
     props.onAddComment({ name: name.value, comment: comment.value, id: v4() });
-    console.log(name.value);
     name.value = '';
     comment.value = '';
   }

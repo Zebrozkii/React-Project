@@ -17,7 +17,7 @@ class CommentPage extends React.Component {
     const newCommentsArray = this.state.comments.slice();
     newCommentsArray.push(newComment);
     this.setState({comments: newCommentsArray});
-  };
+  }
 
   render() {
     return (
