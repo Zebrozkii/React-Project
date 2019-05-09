@@ -14,6 +14,7 @@ This is a example of the skills iver picked up in the React Library.
 ## Specifications
   1. Shows Home.
   2. Can click on any image and will route to a knew page.
+  3. Clicking on the center image takes you to a page where you can leave a comment will eventually be linked to a data base."
 
 ### Setup Instructions
   * Clone repository
