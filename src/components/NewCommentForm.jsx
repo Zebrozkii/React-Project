@@ -10,7 +10,8 @@ function NewCommentForm(props) {
   let name = null;
   let comment = null;
 
-  function handleNewCommentSubmission() {
+  function handleNewCommentSubmission(event) {
+    event.preventDefault();
     props.onAddComment({ name: name.value, comment: comment.value, id: v4() });
     name.value = '';
     comment.value = '';

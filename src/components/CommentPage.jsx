@@ -7,16 +7,16 @@ class CommentPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      comments: []
+      comment: []
     };
   }
 
 
 
   handleAddingCommentToArray(newComment) {
-    const newCommentsArray = this.state.comments.slice();
+    const newCommentsArray = this.state.comment;
     newCommentsArray.push(newComment);
-    this.setState({comments: newCommentsArray});
+    this.setState({comment: newCommentsArray});
   }
 
   render() {
@@ -26,7 +26,7 @@ class CommentPage extends React.Component {
           onAddComment={e => this.handleAddingCommentToArray(e)}
         />
         <CommentList
-          commentList={this.state.comments}
+          commentList={this.state.comment}
         />
       </div>
     );
